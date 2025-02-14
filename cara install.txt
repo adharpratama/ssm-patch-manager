@@ -1,3 +1,12 @@
 ##install requirment
 pip install pandas
 pip install openpyxl
+
+##zip package requirment to lambda
+mkdir package
+cd package
+pip install pandas -t .
+pip install openpyxl -t .
+zip -r ../lambda_function.zip .
+cd ..
+zip -g lambda_function.zip lambda_function.py
