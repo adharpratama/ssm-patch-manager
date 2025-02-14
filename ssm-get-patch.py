@@ -11,7 +11,7 @@ REGION = "namaregion"  # Change this to your AWS region
 S3_BUCKET = "namabucket"  # Replace with your S3 bucket name
 
 # AWS SES Configuration
-SES_REGION = "ap-southeast-1"
+SES_REGION = "us-east-1"
 SES_SENDER_EMAIL = "emailpengirim@example.com"
 SES_RECIPIENT_EMAILS = ["emailpenerima1@example.com", "emailpenerima2@example.com"]  # Add more recipients
 
