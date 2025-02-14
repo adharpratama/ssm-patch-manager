@@ -1,0 +1,3 @@
+##install requirment
+pip install pandas
+pip install openpyxl
